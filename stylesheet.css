@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  background-image: "https://image.shutterstock.com/z/stock-vector-tropical-flowers-palm-leaves-jungle-plants-orchid-bird-of-paradise-flower-pink-flamingos-500768710.jpg";
+  background-repat: no-repeat;
+  background-position: center;
+}
+header{
+  height: 30px;
+  text-align: center;
+}
+#game-board{
+  text-align: center;
+  }
+
+#canvasGame{
+  border: 2px solid pink;
+}
