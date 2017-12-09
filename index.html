@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width">
     <title>Flamingos and ducks</title>
     <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
   <body>
-    <header>Shoot the ducky!</header>
+    <header>The decease of flamingos!</header>
     <div id="game-board">
       <canvas id="canvasGame" width="800" height="400"><canvas/>
     </div>
+    <button type="button" id="start-button" class="btn btn-danger">Start</button>
+    <button type="button" id="pause-button" class="btn btn-secondary">Pause</button>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
     <script src="lib/Flamingo.js"></script>
     <script src="lib/Board.js"></script>
     <script src="lib/Game.js"></script>
